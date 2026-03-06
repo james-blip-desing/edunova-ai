@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>EduNova AI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>EduNova AI Learning Platform</h1>
+
+<div class="panel">
+
+<input id="name" placeholder="Your Name">
+
+<input id="email" placeholder="Email">
+
+<button onclick="login()">Login</button>
+
+</div>
+
+<div id="dashboard" style="display:none">
+
+<h2 id="welcome"></h2>
+
+<button onclick="loadSubjects()">KCSE Subjects</button>
+
+<button onclick="mockExam()">Mock Exam</button>
+
+<button onclick="viewLeaderboard()">Leaderboard</button>
+
+<button onclick="voiceTutor()">Voice Tutor</button>
+
+</div>
+
+<div id="content"></div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
